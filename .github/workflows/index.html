@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kesehatan Mental</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Kesehatan Mental</h1>
+        <p>Dukungan untuk kesehatan mental Anda</p>
+    </header>
+
+    <section class="content">
+        <h2>Mengapa Kesehatan Mental Penting?</h2>
+        <p>Kesehatan mental yang baik adalah kunci kebahagiaan dan kesejahteraan Anda. Temukan dukungan dan sumber daya yang Anda butuhkan di sini.</p>
+        <a href="#kontak" class="cta-button">Hubungi Kami</a>
+    </section>
+
+    <section class="cta" id="kontak">
+        <h2>Hubungi Kami</h2>
+        <p>Hubungi kami untuk konseling dan dukungan terkait kesehatan mental Anda.</p>
+        <form action="proses_form.php" method="POST">
+            <label for="nama">Nama:</label>
+            <input type="text" id="nama" name="nama" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="pesan">Pesan:</label>
+            <textarea id="pesan" name="pesan" required></textarea>
+            <button type="submit">Kirim</button>
+        </form>
+    </section>
+</body>
+</html>
